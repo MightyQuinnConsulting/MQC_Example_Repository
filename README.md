@@ -50,7 +50,7 @@ Beschreibe die Schritte, wie man das Projekt lokal installiert:
 
 [Example GitHub action with reviewers - yml file](https://github.com/MightyQuinnConsulting/MQC_Example_Repository/blob/main/.github/workflows/wf-deploy.yml)
 
-[Example GitHub action with reviewers - action workflow (pipeline)](https://github.com/MightyQuinnConsulting/MQC_Example_Repository/blob/main/.github/workflows/wf-deploy.yml)
+[Example GitHub action with reviewers - action workflow (pipeline)](https://github.com/MightyQuinnConsulting/MQC_Example_Repository/actions/workflows/wf-deploy.yml)
 
 ```mermaid
 graph LR
