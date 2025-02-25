@@ -1,6 +1,9 @@
 # GitHub Actions Workflow for CI/CD
 name: Build
-on: [push, pull_request]
+on: 
+  push:
+  pull_request:
+  workflow_dispatch: # Ermöglicht das manuelle Starten
 jobs:
   build:
     runs-on: ubuntu-latest
