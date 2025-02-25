@@ -1,0 +1,18 @@
+name: "Pull Request"
+description: "Erstelle einen Pull Request für Änderungen."
+body:
+  - type: markdown
+    attributes:
+      value: "Bitte stelle sicher, dass dein PR alle Anforderungen erfüllt."
+  - type: input
+    attributes:
+      label: "Änderungsbeschreibung"
+      description: "Kurze Zusammenfassung der Änderungen."
+  - type: checkboxes
+    attributes:
+      label: "Checkliste"
+      options:
+        - label: "Ich habe die Änderungen getestet."
+          required: true
+        - label: "Der Code folgt den Best Practices."
+          required: true
