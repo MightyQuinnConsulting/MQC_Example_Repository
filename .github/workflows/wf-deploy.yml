@@ -4,11 +4,11 @@ on:
   workflow_dispatch: # Ermöglicht das manuelle Starten
   push:
     branches:
-      - main
+      # - main
       - develop
   pull_request:
     branches:
-      - main
+      # - main
       - develop
 
 jobs:
