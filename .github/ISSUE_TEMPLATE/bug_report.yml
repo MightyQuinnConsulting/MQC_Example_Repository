@@ -1,0 +1,19 @@
+name: "Bug Report"
+description: "Erstelle einen Bericht für einen Fehler."
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Bitte stelle sicher, dass du alle relevanten Details ausfüllst."
+  - type: textarea
+    attributes:
+      label: "Beschreibung des Fehlers"
+      description: "Was ist passiert?"
+  - type: input
+    attributes:
+      label: "Schritte zur Reproduktion"
+      description: "Wie kann der Fehler reproduziert werden?"
+  - type: textarea
+    attributes:
+      label: "Erwartetes Verhalten"
+      description: "Was hättest du erwartet?"
